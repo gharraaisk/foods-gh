@@ -1,11 +1,11 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:gg/app/core/values/contacts/app_urls.dart';
+import '../values/contacts/app_urls.dart';
 import 'package:get/get.dart' as get_package;
 
 import '../values/app_strings.dart';
-import 'package:gg/app/core/values/contacts/app_constants.dart';
+import '../values/contacts/app_constants.dart';
 
 class ApiProvider {
   static final Dio _dio = Dio(
